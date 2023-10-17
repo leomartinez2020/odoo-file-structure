@@ -15,5 +15,5 @@ class InmuebleTipo(models.Model):
     nombre = fields.Char("Nombre", required=True)
 
     # Relational (for inline view)
-    property_ids = fields.One2many("fincaraiz.inmueble", "propiedad_tipo_id", string="Inmuebles")
+    inmueble_ids = fields.One2many("fincaraiz.inmueble", "inmueble_tipo_id", string="Inmuebles")
 
