@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="fincaraiz_inmueble_view_tree" model="ir.ui.view">
+        <field name="name">fincaraiz.inmueble.tree</field>
+        <field name="model">fincaraiz.inmueble</field>
+        <field name="arch" type="xml">
+            <tree string="Inmueble">
+                <field name="nombre"/>
+                <field name="codigopostal"/>
+                <field name="alcobas"/>
+                <field name="precio_esperado"/>
+                <field name="precio_venta"/>
+                <field name="area_total"/>
+                <field name="fecha_disponible"/>
+            </tree>
+        </field>
+    </record>
+    <record id="fincaraiz_inmueble_action" model="ir.actions.act_window">
+        <field name="name">Acción de prueba</field>
+        <field name="res_model">fincaraiz.inmueble</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>

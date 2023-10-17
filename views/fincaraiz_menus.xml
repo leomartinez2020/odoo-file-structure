@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Menu item -->
+    <menuitem id="test_menu_root" name="Finca Raíz">
+        <menuitem id="test_first_level_menu" name="Menú Finca Raíz">
+            <menuitem id="fincaraiz_inmueble_menu_action" action="fincaraiz_inmueble_action"/>
+        </menuitem>
+    </menuitem>
+</odoo>
